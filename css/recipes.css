@@ -45,7 +45,27 @@
     padding: 5px;
 }
 
-.parallax {
+.full_bg_teriyaki {
+    background-image: url("../images/recipes/teriyaki_chicken.jpeg");
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.full_bg_salmon {
+    background-image: url("../images/recipes/salmon.jpeg");
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax_teriyaki {
   /* The image used */
   background-image: url("../images/recipes/teriyaki_chicken.jpeg");
 
@@ -59,14 +79,18 @@
   background-size: cover;
 }
 
-.full_bg_teriyaki {
-  background-image: url("../images/recipes/teriyaki_chicken.jpeg");
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.parallax_salmon {
+    /* The image used */
+    background-image: url("../images/recipes/salmon.jpeg");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 body,
