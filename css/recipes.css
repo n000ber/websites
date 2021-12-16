@@ -8,7 +8,7 @@
 
 .parallax {
   /* The image used */
-  background-image: url("/images/recipes/teriyaki_chicken.jpeg");
+  background-image: url("../images/recipes/teriyaki_chicken.jpeg");
 
   /* Set a specific height */
   min-height: 500px;
@@ -21,7 +21,7 @@
 }
 
 .full_bg_teriyaki {
-  background-image: url("/images/recipes/teriyaki_chicken.jpeg");
+  background-image: url("../images/recipes/teriyaki_chicken.jpeg");
   height: 100%;
 
   /* Center and scale the image nicely */
