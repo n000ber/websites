@@ -45,6 +45,14 @@
     padding: 5px;
 }
 
+.full_bg_cover {
+    background-image: url('../images/recipes/cover_image.jpeg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .full_bg_teriyaki {
     background-image: url("../images/recipes/teriyaki_chicken.jpeg");
     height: 100%;
