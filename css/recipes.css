@@ -7,6 +7,44 @@
   font-family: Sofia;
 }
 
+.recipes_header {
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: -0.006em;
+    color: black;
+    font-weight: 900;
+    font-family: Sofia;
+}
+
+.ingredients_header {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: -0.006em;
+    color: black;
+    font-weight: 900;
+    font-family: Sofia;
+    text-decoration: underline;
+}
+
+.ingredients_text {
+    text-align: justify;
+    font-size: 20px;
+    letter-spacing: -0.006em;
+    color: black;
+    font-weight: 900;
+    font-family: Sofia;
+}
+
+.steps_text {
+    text-align: justify;
+    font-size: 20px;
+    letter-spacing: -0.006em;
+    color: black;
+    font-weight: 900;
+    font-family: Oswad;
+    padding: 5px;
+}
+
 .parallax {
   /* The image used */
   background-image: url("../images/recipes/teriyaki_chicken.jpeg");
