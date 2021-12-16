@@ -1,9 +1,10 @@
 .landing_page {
   text-align: center;
-  font-size: 44px;
+  font-size: 70px;
   letter-spacing: -0.006em;
   color: black;
-  font-weight: 863;
+  font-weight: 900;
+  font-family: Sofia;
 }
 
 .parallax {
