@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/personal.css" />
@@ -19,21 +16,17 @@
     <!-- AOS Library -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/21d5dda1bb.js" crossorigin="anonymous"></script>
+
     <!-- jQuery -->
-    <script
-      defer
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
+    <script defer src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
     <!-- Bootstrap JS -->
-    <script
-      defer
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"
-      integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm"
-      crossorigin="anonymous"
-    ></script>
+    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"
+        integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm"
+        crossorigin="anonymous"></script>
 
     <!-- AOS Library -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -43,7 +36,120 @@
 
     <title>Personal Website</title>
 </head>
+
 <body>
-    <h1 class="caption">Welcome to my personal website!</h1>
+    <nav class="navbar bg-dark navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand mx-auto" href="personal.html">
+                n000ber
+            </a>
+            <div class="navbar-collapse collapse" id="navbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="personal.html#why_me">WHY ME?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="personal.html#pricing">PRICING</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="personal.html#about_me">ABOUT ME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="personal.html#contact">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h1 class="typewrite center" style="color: white;" data-period="2000"
+        data-type='["HELLO, I&#39m n000ber!", "I love making websites!", "Hope you&#39d like my site!"]'></h1>
+    <div class="full_bg_cover"></div>
+
+    <section id="why_me">
+        <div class="parallax_cover5"></div>
+        <div class="jumbotron-fluid" style="background-color: black;">
+            <div class="landing-segment aos-init" data-aos="fade-down">
+                <h2 class="subsections_header">WHY ME?</h2>
+                <div class="subsections_para">
+                    <p>I make professional-looking websites at a fraction of the cost!</p>
+                    <ul>
+                        <div class="checkboxes_center">
+                            <li><i class="fas fa-check-square"></i> Fully Customisable</li>
+                            <li><i class="fas fa-check-square"></i> Attractive Design</li>
+                            <li><i class="fas fa-check-square"></i> Highly Secure</li>
+                        </div>
+                        <br>
+                        <div class="checkboxes_center">
+                            <li><i class="fas fa-times-circle"></i> Using Pre-Made Templates</li>
+                            <li><i class="fas fa-times-circle"></i> Using Website Builder Tools (Wix, Wordpress)</li>
+                        </div>
+
+                    </ul>
+
+                    <p style="margin-bottom: 0px;">View some of the webstites that I created <a
+                            href="https://n000ber.github.io/websites/">here!</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="parallax_cover5"></div>
+    </section>
+
+    <section id="pricing">
+        <div class="parallax_cover4"></div>
+        <div class="jumbotron-fluid" style="background-color: black;">
+            <div class="landing-segment aos-init" data-aos="fade-down">
+                <h2 class="subsections_header">PRICING</h2>
+                <div class="subsections_para">
+                    <p>~ $50 per page (exclusive of custom domains, web hosting)</p>
+                    <p style="margin-bottom: 0px;">Payment only after being satisfied with the final product! &#128515;
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="parallax_cover4"></div>
+    </section>
+
+    <section id="about_me">
+        <div class="parallax_cover3"></div>
+        <div class="jumbotron-fluid" style="background-color: black;">
+            <div class="landing-segment aos-init" data-aos="fade-down">
+                <h2 class="subsections_header">ABOUT ME</h2>
+                <div class="subsections_para">
+                    <p>Currently serving &#x1F1F8;&#x1F1EC </p>
+                    <p style="margin-bottom: 0px;"> I am passionate about building websites &#128187!
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="parallax_cover3"></div>
+    </section>
+
+    <section id="contact">
+        <div class="parallax_cover2"></div>
+        <div class="jumbotron-fluid" style="background-color: black;">
+            <div class="landing-segment aos-init" data-aos="fade-down">
+                <h2 class="subsections_header">CONTACT</h2>
+                <div class="subsections_para">
+                    <p style="margin-bottom: 0px;"> Message me <a href="https://t.me/n000ber">@n000ber</a> on Telegram! <i class="fab fa-telegram"></i></p>
+                </div>
+            </div>
+        </div>
+        <div class="parallax_cover2"></div>
+    </section>
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
+
 </html>
