@@ -170,3 +170,7 @@ ul {
 .fa-telegram{
     color: lightblue;
 }
+
+html {
+  scroll-behavior: smooth;
+}
