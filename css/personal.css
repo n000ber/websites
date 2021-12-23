@@ -5,34 +5,18 @@
   text-align: center;
 }
 
+@media screen and (max-width: 576px) {
+  .navbar-brand {
+    position: relative;
+    text-align: left;
+    width: 50px;
+    height: 50px;
+  }
+}
+
 .navbar-logo {
   height: 50px;
   width: auto;
-}
-
-@media screen and (max-width: 992px) {
-  body {
-    padding-top: 70px;
-  }
-
-  .navbar-logo {
-    height: 40px;
-  }
-}
-
-@media (min-width: 992px) {
-  .navbar-brand {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    text-align: center;
-  }
-}
-
-.navbar-toggler {
-  position: absolute;
-  top: 8px;
-  right: 16px;
 }
 
 .nav-item {
@@ -119,56 +103,57 @@ html {
   background-color: transparent;
 }
 
-.parallax_cover1{
-    background-image: url("../images/personal/cover1.jpg")
+.parallax_cover1 {
+  background-image: url("../images/personal/cover1.jpg");
 }
-.parallax_cover2{
-    background-image: url("../images/personal/cover2.jpg")
+.parallax_cover2 {
+  background-image: url("../images/personal/cover2.jpg");
 }
-.parallax_cover3{
-    background-image: url("../images/personal/cover3.jpg")
+.parallax_cover3 {
+  background-image: url("../images/personal/cover3.jpg");
 }
-.parallax_cover4{
-    background-image: url("../images/personal/cover4.jpg")
+.parallax_cover4 {
+  background-image: url("../images/personal/cover4.jpg");
 }
-.parallax_cover5{
-    background-image: url("../images/personal/cover5.jpg")
+.parallax_cover5 {
+  background-image: url("../images/personal/cover5.jpg");
 }
 
-.subsections_header, .subsections_para{
-    text-align: center;
-    color: white;
-    background-color: black;
+.subsections_header,
+.subsections_para {
+  text-align: center;
+  color: white;
+  background-color: black;
 }
 
 .subsections_header {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .subsections_para {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .fa-check-square {
-    color: green;
+  color: green;
 }
 
 .checkboxes_center {
-    text-align: left;
-    padding-left: 35%;
+  text-align: left;
+  padding-left: 35%;
 }
 
-.fa-times-circle{
-    color: red;
+.fa-times-circle {
+  color: red;
 }
 
-.fa-telegram{
-    color: lightblue;
+.fa-telegram {
+  color: lightblue;
 }
 
 html {
