@@ -8,14 +8,14 @@ function validateInput() {
     let user_input = parseInt(this.previousElementSibling.value);
     let text_box = document.getElementById("text_box");
     if (!Number.isInteger(user_input) || user_input > 100 || user_input < 1) {
-        text_box.textContent = "Invalid Input! Please only enter an integer between 0 and 100!";
+        text_box.textContent = "Invalid Input! Please only enter an integer between 1 and 100!";
     } else {
         if (counter === 1) {
             rand = parseInt(generateRand());
             console.log(rand);
             compareResult(rand, user_input);
             same_rand = rand;
-        } else{
+        } else {
             compareResult(same_rand, user_input);
         }
     }
@@ -27,7 +27,7 @@ function generateRand() {
 }
 
 function compareResult(rand, user_input) {
-    
+
     if (counter >= 6 && rand !== user_input) {
         text_box.textContent = "6th try incorrect!";
         end_box.textContent = `You've used all your tries! The number was ${rand}. Try again!`;
@@ -55,13 +55,10 @@ function resetGame() {
     let rand = parseInt(generateRand());
     counter = 1;
     text_box.textContent = "Game has been reset!";
-
-
 }
 
 let submit = document
     .getElementById("submit")
     .addEventListener("click", validateInput);
-
 let reset = document.getElementById("reset").addEventListener("click", resetGame)
 
