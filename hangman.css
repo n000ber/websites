@@ -1,0 +1,17 @@
+.jumbotron {
+    background: rgba(85, 4, 235, 0.22);
+    text-align: center;
+}
+
+.input_grp {
+    text-align: center;
+}
+
+html body {
+    background: rgba(85, 4, 235, 0.2)
+}
+
+#text_box {
+    padding-top: 100px;
+    font-size: 50px;
+}
