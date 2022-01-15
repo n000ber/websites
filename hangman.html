@@ -25,9 +25,13 @@
     <section class="container" id="game">
         <div class="jumbotron">
             <p class="h1">Hangman Game</p>
+            <p class="lead" style="padding-top: 50px;"> Are you able to guess the random word within 5 tries?</p>
+            <p> Guess 1 character at a time! (case-insensitive)</p>
+            <p> Only incorrect guesses decrements tries!</p>
+            <p> Need some <a href="https://www3.nd.edu/~busiforc/handouts/cryptography/letterfrequencies.html">help?</a></p>
         </div>
         <div class="input_grp container" style="padding-top: 50px">
-            <input type="text" type="submit" placeholder="Enter one character!" />
+            <input type="text" type="submit" placeholder="Enter guess" maxlength="1"/>
             <button class="btn btn-primary" type="button" id="submit">
                 Submit
             </button>

@@ -67,7 +67,6 @@ affect
 afford
 afraid
 African
-African-American
 after
 afternoon
 again
@@ -876,7 +875,6 @@ eliminate
 elite
 else
 elsewhere
-e-mail
 embrace
 emerge
 emergency
@@ -1559,7 +1557,6 @@ locate
 location
 lock
 long
-long-term
 look
 loose
 lose
@@ -1775,7 +1772,6 @@ notion
 novel
 now
 nowhere
-n't
 nuclear
 number
 numerous
